@@ -18,7 +18,7 @@ export const Top = () => {
             Welcome to <a href="https://nextjs.org">Next.js!</a>
           </h1>
           <h1>test text</h1>
-          <Button>てすと</Button>
+          <Button radius={"xl"}>てすと</Button>
 
           <p>
             Get started by editing <code>pages/index.tsx</code>
