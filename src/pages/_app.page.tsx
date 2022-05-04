@@ -1,5 +1,7 @@
 import 'nprogress/nprogress.css'
+import '@/styles/global.css'
 
+import { MantineProvider } from '@mantine/core';
 import type { AppProps } from 'next/app'
 import nprogress from 'nprogress'
 import { useEffect } from 'react'
@@ -15,7 +17,11 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     nprogress.done()
   })
 
-  return <Component {...pageProps} />
+  return (
+    <MantineProvider>
+      <Component {...pageProps} />
+    </MantineProvider>
+  )
 }
 
 export default MyApp

@@ -1,3 +1,4 @@
+import { Button } from '@mantine/core';
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -13,10 +14,11 @@ export const Top = () => {
 
       <main>
         <div>
-          <h1>
+          <h1 className="text-3xl font-bold text-red-800">
             Welcome to <a href="https://nextjs.org">Next.js!</a>
           </h1>
           <h1>test text</h1>
+          <Button>てすと</Button>
 
           <p>
             Get started by editing <code>pages/index.tsx</code>
