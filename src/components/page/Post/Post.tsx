@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
+import { pagesPath } from '@/lib/$path'
+
 export const Post = () => {
   return (
     <div>
@@ -12,7 +14,7 @@ export const Post = () => {
       <main>
         <h1>This is post page</h1>
       </main>
-      <Link href="/">back to top</Link>
+      <Link href={pagesPath.$url()}>back to top</Link>
     </div>
   )
 }

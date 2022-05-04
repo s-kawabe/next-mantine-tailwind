@@ -18,7 +18,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   })
 
   return (
-    <MantineProvider>
+    <MantineProvider withGlobalStyles withNormalizeCSS>
       <Component {...pageProps} />
     </MantineProvider>
   )
