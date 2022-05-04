@@ -4,7 +4,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // connect responsive value to mantine (https://mantine.dev/theming/responsive)
+    // https://mantine.dev/theming/responsive
     screens: {
       xs: "576px",
       sm: "768px",

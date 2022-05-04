@@ -1,9 +1,9 @@
-import { Button } from '@mantine/core';
+import { Button } from '@mantine/core'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { pagesPath } from '@/lib/$path';
+import { pagesPath } from '@/lib/$path'
 
 export const Top = () => {
   return (
@@ -16,11 +16,11 @@ export const Top = () => {
 
       <main>
         <div>
-          <h1 className="text-3xl font-bold text-red-800">
+          <h1 className="p-2 w-96 text-3xl font-bold text-red-800 bg-slate-200 border-2 border-orange-400 border-double">
             Welcome to <a href="https://nextjs.org">Next.js!</a>
           </h1>
           <h1>test text</h1>
-          <Button radius={"xl"}>てすと</Button>
+          <Button radius={'xl'}>てすと</Button>
 
           <p>
             Get started by editing <code>pages/index.tsx</code>

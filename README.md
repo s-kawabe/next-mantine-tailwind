@@ -1,5 +1,17 @@
 # Next.js * Mantine * Tailwind
 
+- Next.js
+- eslint
+- prettier
+- husky
+- jest
+- react-testing-library
+- scaffdog
+- renovate bot
+- pathpida
+- tailwindcss
+- mantine
+
 ## tailwind install
 
 https://tailwindcss.com/docs/guides/nextjs
@@ -12,11 +24,29 @@ https://mantine.dev/getting-started/
 yarn add @mantine/hooks @mantine/core @mantine/next
 ```
 
-## 上記2つを普通にinstallしただけだとmantineのコンポーネントがうまく表示されない (?)
+## ⭐ remove @tailwind base;
 
 https://zenn.dev/elletech/articles/mantine-tailwindcss
 
 > Tailwind CSSのリセットCSSとMantineが競合してしまう
 > (buttonのbackground-colorにtransparentが当たってしまう)
 
-## 組み合わせてうまく使う方法
+## How to use
+Mantineの用途は、主要コンポーネントのimportにとどめる。
+細かいスタイリングはtailwindで行う。
+- 複雑なコンポーネントをMantineからimportして使う
+- tailwindでのスタイリングは余白や、mantineコンポーネントへのスタイル修正など
+- 余白のスタイル責務はtailwindに負わせる
+
+`@mantine/core` / `@mantine/hooks` のみが入っているので必要ならば他のMantineライブラリも入れる。
+
+## Tips
+
+### responsive styling
+
+
+# memo
+
+### "prettier-plugin-tailwindcss" と "eslint-plugin-tailwindcss" はなんか一緒に使うとばぐる
+保存と同時に一瞬並び替えられるがまた元に戻される
+→eslintのほうだけ残して解決

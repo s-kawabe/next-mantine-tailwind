@@ -13,10 +13,12 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: ['react-hooks', 'react', '@typescript-eslint', 'import', "simple-import-sort"],
+  settings: { tailwindcss: { groupByResponsive: true } },
+  plugins: ['@typescript-eslint','simple-import-sort', 'import', "tailwindcss"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:tailwindcss/recommended",
     "next",
     "next/core-web-vitals",
     "prettier",
