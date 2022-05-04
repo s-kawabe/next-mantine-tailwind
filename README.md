@@ -40,11 +40,6 @@ Mantineの用途は、主要コンポーネントのimportにとどめる。
 
 `@mantine/core` / `@mantine/hooks` のみが入っているので必要ならば他のMantineライブラリも入れる。
 
-## Tips
-
-### responsive styling
-
-
 # memo
 
 ### "prettier-plugin-tailwindcss" と "eslint-plugin-tailwindcss" はなんか一緒に使うとばぐる
