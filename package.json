@@ -23,7 +23,7 @@
   "dependencies": {
     "@mantine/core": "^4.2.2",
     "@mantine/hooks": "4.2.12",
-    "@mantine/next": "^4.2.2",
+    "@mantine/next": "4.2.12",
     "next": "12.1.5",
     "nprogress": "0.2.0",
     "react": "17.0.2",
