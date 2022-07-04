@@ -21,7 +21,7 @@
     "printWidth": 120
   },
   "dependencies": {
-    "@mantine/core": "^4.2.2",
+    "@mantine/core": "4.2.12",
     "@mantine/hooks": "4.2.12",
     "@mantine/next": "^4.2.2",
     "next": "12.1.5",
